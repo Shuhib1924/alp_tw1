@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body class="text-zinc-100">
+    <div class="container mx-auto">
+      <div class="p-6 bg-teal-800">
+        <nav class="flex justify-between mb-6">
+          <div>
+            <a href="" class="text-xl">
+              <span class="font-bold"> SPEED.CODES </span> new Tea
+            </a>
+          </div>
+          <div class="flex items-center">
+            <a href="">
+              <svg
+                class="mr-4 w-7 h-7"
+                id="Group_17"
+                data-name="Group 17"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 23.929 25.052"
+                fill="none"
+              >
+                <path
+                  id="Path_1039"
+                  data-name="Path 1039"
+                  d="M.231,0H11.9a1.743,1.743,0,1,1,0,3.487H0Z"
+                  transform="translate(14.281 12.939) rotate(45)"
+                  fill="#fff"
+                />
+                <path
+                  id="Path_1039_-_Outline"
+                  data-name="Path 1039 - Outline"
+                  d="M.231,0H11.9a1.743,1.743,0,1,1,0,3.487H0Z"
+                  transform="translate(14.281 12.939) rotate(45)"
+                  fill="#fff"
+                />
+                <path
+                  id="Ellipse_7"
+                  data-name="Ellipse 7"
+                  d="M8.424,1.685a6.739,6.739,0,0,0-4.765,11.5,6.739,6.739,0,1,0,9.531-9.531A6.7,6.7,0,0,0,8.424,1.685M8.424,0A8.424,8.424,0,1,1,0,8.424,8.424,8.424,0,0,1,8.424,0Z"
+                  transform="translate(0 0)"
+                  fill="#fff"
+                />
+              </svg>
+            </a>
+            <a href="">
+              <svg
+                class="mr-4 w-7 h-7"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 29.156 27.248"
+              >
+                <g
+                  id="Group_16"
+                  data-name="Group 16"
+                  transform="translate(0.665 0.332)"
+                >
+                  <path
+                    id="Rectangle_80"
+                    data-name="Rectangle 80"
+                    d="M1.739,1.739V14.492H18.55V1.739H1.739M0,0H20.289V16.231H0Z"
+                    transform="translate(4.058 10.435)"
+                    fill="#fff"
+                    stroke="#fff"
+                    stroke-linecap="round"
+                    stroke-width="0.5"
+                  />
+                  <path
+                    id="Polygon_8"
+                    data-name="Polygon 8"
+                    d="M13.913,2.311,4.628,10.435H23.2L13.913,2.311m0-2.311L27.825,12.174H0Z"
+                    transform="translate(0 0)"
+                    fill="#fff"
+                    stroke="#fff"
+                    stroke-linecap="round"
+                    stroke-width="0.5"
+                  />
+                  <path
+                    id="Rectangle_81"
+                    data-name="Rectangle 81"
+                    d="M1.739,1.739V8.7H6.377V1.739H1.739M0,0H8.116V10.435H0Z"
+                    transform="translate(9.855 16.231)"
+                    fill="#fff"
+                    stroke="#fff"
+                    stroke-linecap="round"
+                    stroke-width="0.5"
+                  />
+                </g>
+              </svg>
+            </a>
+            <div x-data="{open:false}">
+              <button @click="open=!open">
+                <svg
+                  class="w-10 h-10"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
+                </svg>
+              </button>
+              <div
+                x-show="open"
+                class="absolute top-0 left-0 z-10 w-4/5 h-full p-6 bg-zinc-100"
+              >
+                <div class="flex justify-between mb-16">
+                  <p class="text-neutral-500">
+                    <span class="font-bold">SPEED.CODES</span> GREEN TEA
+                  </p>
+                  <button @click="open=false">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="w-8 h-8 text-slate-400"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </button>
+                </div>
+                <div>
+                  <ul class="ml-4 font-bold text-black list-disc">
+                    <li><a class="block p-4">HOME</a></li>
+                    <li><a class="block p-4">PRODUCT</a></li>
+                    <li><a class="block p-4">SHOPPING</a></li>
+                    <li><a class="block p-4">ACCOUNT</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div
+          class="flex flex-col items-center justify-center mb-16 text-center"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="148.584"
+            height="97.846"
+            viewBox="0 0 148.584 97.846"
+          >
+            <g id="graphic-tea1" transform="translate(-175.64 -538.572)">
+              <path
+                id="Path_1037"
+                data-name="Path 1037"
+                d="M0,0S57.281,16.284,66.611,38.74,55.679,80.189,55.679,80.189a22.116,22.116,0,0,0-2.4-14.234C49.32,58.995,36.9,54.89,36.9,54.89s8.688,8.293,10.84,14.89a22.87,22.87,0,0,1,0,12.988S22.51,84.276,12.875,63.414,0,0,0,0Z"
+                transform="matrix(0.966, -0.259, 0.259, 0.966, 175.64, 556.448)"
+                fill="#71ad7f"
+              />
+              <path
+                id="Path_1038"
+                data-name="Path 1038"
+                d="M48.019,0S8.194,11.951,1.707,28.431s7.6,30.418,7.6,30.418A17.042,17.042,0,0,1,10.976,48.4c2.753-5.108,11.385-8.12,11.385-8.12s-6.04,6.086-7.537,10.927a17.676,17.676,0,0,0,0,9.532s17.544,1.108,24.243-14.2S48.019,0,48.019,0Z"
+                transform="matrix(0.891, 0.454, -0.454, 0.891, 281.438, 548.892)"
+                fill="#71ad7f"
+              />
+            </g>
+          </svg>
+          <p class="text-5xl text-yellow-100">beautiful green</p>
+          <p class="pt-4 mt-4 text-2xl border-t border-1">for your wellness</p>
+        </div>
+        <div class="flex justify-center mb-16">
+          <a
+            href=""
+            class="px-4 py-2 mr-2 font-bold border-2 rounded border-zinc-100"
+            >Learn More</a
+          >
+          <a
+            href=""
+            class="px-6 py-2 ml-2 font-bold text-teal-800 bg-teal-200 border-2 border-teal-200 rounded"
+            >Buy Now
+          </a>
+        </div>
+
+        <div>
+          <p class="mb-4">"i'm amazed at their selection fo tea"</p>
+          <div class="flex justify-between">
+            <p>- Shuhib Siddiqi</p>
+            <a
+              href=""
+              class="px-3 py-2 text-sm text-teal-800 rounded-sm bg-stone-300"
+              >More Reviews
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
